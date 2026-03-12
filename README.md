@@ -48,7 +48,25 @@ This script was created to solve that problem by turning raw trial exports into 
 - Automated plots and heatmaps
 
 ## Impact
-[Use the impact section]
+The main value of this work is its ability to transform a highly manual and fragmented process into a fast, standardized, and scalable analytical workflow.
+Operational impact
+
+Reduced a process that could take months of manual validation and consolidation into a workflow that runs in ~30 seconds
+Enabled within-season monitoring, not just post-season correction
+Improved visibility of data collection gaps before they became critical downstream problems
+Created a reproducible framework that can be reused across seasons and adapted to other crops
+
+Analytical impact
+
+Increased confidence in phenology and assessment data used for reporting and analytics
+Improved traceability of field-level and trajectory-level issues
+Supported more reliable discussions on data status, quality, and next steps
+
+Organizational impact
+
+Facilitated alignment between local operational teams and global stakeholders
+Provided a structured basis for leadership discussions around trial progress and data readiness
+Scaled the value of agronomic data analysis from a local operational task to a global decision-support capability
 
 ## Tech Stack
 Python, pandas, numpy, matplotlib, seaborn, reportlab, openpyxl
@@ -57,5 +75,4 @@ Python, pandas, numpy, matplotlib, seaborn, reportlab, openpyxl
 This repository contains an anonymized/adapted version of an internal operational workflow developed for large-scale agronomic trial monitoring.
 
 
-# 5) Why this project matters
-This project demonstrates how domain knowledge in agronomy can be combined with data engineering, QA logic, and reporting automation to solve a real business bottleneck. Rather than only analyzing results after the fact, the system helps teams monitor trial quality during the season, identify issues early, and act faster. The result is a substantial gain in efficiency, consistency, and decision quality across a global trial network.
+
